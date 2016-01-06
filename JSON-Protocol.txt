@@ -1,0 +1,218 @@
+//REQ_SET_NAME
+{
+	"Type":"101",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//REQ_USER_LIST
+{
+	"Type":"102",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//REQ_DISCONNECT
+{
+	"Type":"103",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//REQ_INVITATION
+{
+	"Type":"104",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"To":"Bahadir"
+		}
+	]
+}
+
+//REQ_GAME
+{
+	"Type":"105",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"To":"Bahadir"
+			"StartGame":1 or 0
+		}
+	]
+}
+
+//REQ_SCORE
+{
+	"Type":"106",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+
+------------------------------------------------------------
+//RES_SET_NAME
+{
+	"Type":"201",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//RES_USER_LIST
+{
+	"Type":"202",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"1":"Bahadir",
+			"2":"Mehmet",
+			"3":"Erhan Guleryuz"
+		}
+	]
+}
+
+//RES_DISCONNECT
+{
+	"Type":"203",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//RES_GAME
+{
+	"Type":"205",
+	"Name":"Bahadir",
+	"Data":
+	[
+		{
+			"To":"Oguzhan"
+		}
+	]
+}
+
+
+//RES_SCORE
+{
+	"Type":"206",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"Score":"integer"
+		}
+	]
+}
+
+
+------------------------------------------------------------
+//ERR_NAME_EXISTS		Return the sent name back!
+{
+	"Type":"501",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+//ERR_INVITATION		
+{
+	"Type":"504",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+//ERR_GAMEDECLINED		
+{
+	"Type":"505",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+
+//ERR_GAME_ALREADYPLAYING
+{
+	"Type":"506",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"To":"Bahadýr"
+		}
+	]
+}
+
+
+------------------------------------------
+//GAME_SELECTION
+{
+	"Type":"601",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"Selection":"Rock","Paper","Scissors"
+			"Opponent":"name"
+		}
+	]
+}
+
+//GAME_ANNOUNCE_WINNER
+{
+	"Type":"602",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+			"Winner":"Name"
+		}
+	]
+}
+
+//GAME_ENABLE_SEND_BUTTON
+{
+	"Type":"603",
+	"Name":"Oguzhan",
+	"Data":
+	[
+		{
+		}
+	]
+}
+
+
